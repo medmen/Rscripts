@@ -2,7 +2,7 @@
 library("ggplot2")
 library("scales")
 
-dat <- read.csv2("~/Documents/JOB/Studien_und_Projekte/MeVis_Arbeit/Ergebnisse/sample_distribution.csv", header=TRUE, na="NA", check.names=FALSE)
+dat <- read.csv2("sample_distribution.csv", header=TRUE, na="NA", check.names=FALSE)
 # give names of headers
 headers <- names(dat)
 attach(dat)
